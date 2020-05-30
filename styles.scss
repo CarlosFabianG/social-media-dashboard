@@ -11,3 +11,15 @@ body {
     font-size: 14px;
     margin: 0;
 }
+
+.wrapper {
+    padding: 40px;
+}
+
+.card {
+    .card:before {
+        content: "";
+        height: 4px;
+        background: $facebook-color;
+    }
+}
