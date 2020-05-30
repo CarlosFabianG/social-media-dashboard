@@ -1,6 +1,46 @@
+/* variables*/
 body {
   font-family: "Inter", sans-serif;
+  font-size: 14px;
   margin: 0;
+}
+
+header h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.wrapper {
+  padding: 0 40px;
+}
+
+.card {
+  text-align: center;
+  background-color: #f0f2fa;
+  border-radius: 4px;
+}
+.card:before {
+  content: "";
+  height: 4px;
+  display: block;
+  background: #198ff5;
+}
+.card .card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .card-title img {
+  margin-right: 6px;
+}
+.card .card-followers .card-followers-number {
+  font-size: 40px;
+  font-weight: 600;
+}
+.card .card-followers .card-followers-title {
+  letter-spacing: 2px;
+  display: block;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */
