@@ -5,14 +5,16 @@ $facebook-color: hsl(208, 92%, 53%);
 $twitter-color: hsl(203, 89%, 53%);
 $youtube-color: hsl(348, 97%, 39%);
 $card-background: hsl(227, 47%, 96%);
+$text-color: hsl(228, 12%, 44%);
 
-
+/* Nested selectors*/
 body {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     margin: 0;
 }
 header {
+    color: $text-color;
     h1 {
         font-size: 1.4rem;
         font-weight: 600;
@@ -26,7 +28,9 @@ header {
 .card {
     text-align: center;
     background-color: $card-background;
+    color: $text-color;
     border-radius: 4px;
+    padding-bottom: 2px;
     &:before {
         content: "";
         height: 4px;
@@ -51,5 +55,9 @@ header {
             display: block;
             text-transform: uppercase;
         }
+    }
+    .card-today {
+        color: $lime-green;
+        font-weight: bold;
     }
 }
