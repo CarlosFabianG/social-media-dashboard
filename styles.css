@@ -38,7 +38,7 @@ header .wrapper .header-total {
   grid-row-gap: 25px;
 }
 
-.card {
+.card, .youtube-card, .instagram-card, .twitter-card {
   text-align: center;
   overflow: hidden;
   background-color: #f0f2fa;
@@ -46,32 +46,44 @@ header .wrapper .header-total {
   border-radius: 6px;
   padding-bottom: 2px;
 }
-.card:before {
+.card:before, .youtube-card:before, .instagram-card:before, .twitter-card:before {
   content: "";
   height: 4px;
   display: block;
   background: #198ff5;
 }
-.card .card-title {
+.card .card-title, .youtube-card .card-title, .instagram-card .card-title, .twitter-card .card-title {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.card .card-title img {
+.card .card-title img, .youtube-card .card-title img, .instagram-card .card-title img, .twitter-card .card-title img {
   margin-right: 6px;
 }
-.card .card-followers .card-followers-number {
+.card .card-followers .card-followers-number, .youtube-card .card-followers .card-followers-number, .instagram-card .card-followers .card-followers-number, .twitter-card .card-followers .card-followers-number {
   font-size: 40px;
   font-weight: 600;
 }
-.card .card-followers .card-followers-title {
+.card .card-followers .card-followers-title, .youtube-card .card-followers .card-followers-title, .instagram-card .card-followers .card-followers-title, .twitter-card .card-followers .card-followers-title {
   letter-spacing: 2px;
   display: block;
   text-transform: uppercase;
 }
-.card .card-today {
+.card .card-today, .youtube-card .card-today, .instagram-card .card-today, .twitter-card .card-today {
   color: #1db489;
   font-weight: bold;
+}
+
+.twitter-card:before {
+  background: #1ca0f2;
+}
+
+.instagram-card:before {
+  background: linear-gradient(to right, #fdc468 0%, #df4996 100%);
+}
+
+.youtube-card:before {
+  background: #c4032a;
 }
 
 /*# sourceMappingURL=styles.css.map */

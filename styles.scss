@@ -82,3 +82,22 @@ header {
         font-weight: bold;
     }
 }
+
+.twitter-card {
+    @extend .card;
+    &:before {
+        background: $twitter-color;
+    }
+}
+.instagram-card {
+    @extend .card;
+    &:before {
+        background: linear-gradient(to right, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%);
+    }
+}
+.youtube-card {
+    @extend .card;
+    &:before {
+        background: $youtube-color;
+    }
+}
