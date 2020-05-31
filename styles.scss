@@ -1,4 +1,4 @@
-/* variables*/
+/* Variables */
 $lime-green: hsl(163, 72%, 41%);
 $bright-red: hsl(356, 69%, 56%);
 $facebook-color: hsl(208, 92%, 53%);
@@ -7,7 +7,7 @@ $youtube-color: hsl(348, 97%, 39%);
 $card-background: hsl(227, 47%, 96%);
 $text-color: hsl(228, 12%, 44%);
 
-/* Nested selectors*/
+/* Nested selectors */
 body {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -45,6 +45,7 @@ header {
     }
 }
 
+/* Card */
 .card {
     text-align: center;
     overflow: hidden;
@@ -104,5 +105,25 @@ header {
     @extend .card;
     &:before {
         background: $youtube-color;
+    }
+}
+
+/* Small card */
+.overview {
+    .wrapper {
+        .card-small {
+            .card-small-views {
+
+            }
+            .card-small-icon {
+
+            }
+            .card-small-number {
+
+            }
+            .card-small-img {
+
+            }
+        }
     }
 }
