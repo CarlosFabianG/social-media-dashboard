@@ -17,6 +17,10 @@ header h1 {
 .wrapper {
   padding: 0 40px;
 }
+.wrapper .grid {
+  display: grid;
+  grid-row-gap: 50px;
+}
 
 .card {
   text-align: center;

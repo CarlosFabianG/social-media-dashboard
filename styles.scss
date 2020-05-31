@@ -23,6 +23,10 @@ header {
 
 .wrapper {
     padding: 0 40px;
+    .grid {
+        display: grid;
+        grid-row-gap: 50px;
+    }
 }
 
 .card {
