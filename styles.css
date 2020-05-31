@@ -8,25 +8,42 @@ body {
 
 header {
   color: #63687e;
+  background-color: #f8f9fe;
+  padding-bottom: 100px;
+  border-radius: 0 0 20px 20px;
+  padding-top: 20px;
 }
-header h1 {
-  font-size: 1.4rem;
-  font-weight: 600;
-}
-
-.wrapper {
+header .wrapper {
   padding: 0 40px;
 }
-.wrapper .grid {
+header .wrapper h1 {
+  font-size: 1.4rem;
+  color: #5f616d;
+  font-weight: 600;
+  margin: 0;
+}
+header .wrapper .header-total {
+  border-bottom: 2px solid #5f616d;
+  padding-bottom: 1.5em;
+}
+
+.top-cards {
+  margin-top: -50px;
+}
+.top-cards .wrapper {
+  padding: 0 40px;
+}
+.top-cards .wrapper .grid {
   display: grid;
-  grid-row-gap: 50px;
+  grid-row-gap: 25px;
 }
 
 .card {
   text-align: center;
+  overflow: hidden;
   background-color: #f0f2fa;
   color: #63687e;
-  border-radius: 4px;
+  border-radius: 6px;
   padding-bottom: 2px;
 }
 .card:before {

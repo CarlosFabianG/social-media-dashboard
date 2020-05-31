@@ -15,25 +15,42 @@ body {
 }
 header {
     color: $text-color;
-    h1 {
-        font-size: 1.4rem;
-        font-weight: 600;
-    }
+    background-color: #f8f9fe;
+    padding-bottom: 100px;
+    border-radius: 0 0 20px 20px;
+    padding-top: 20px;
+    .wrapper {
+        padding: 0 40px;
+        h1 {
+            font-size: 1.4rem;
+            color: #5f616d;
+            font-weight: 600;
+            margin: 0;
+        }
+        .header-total {
+            border-bottom: 2px solid #5f616d;
+            padding-bottom: 1.5em;
+        }
+    } 
 }
 
-.wrapper {
-    padding: 0 40px;
-    .grid {
-        display: grid;
-        grid-row-gap: 50px;
+.top-cards {
+    margin-top: -50px;
+    .wrapper {
+        padding: 0 40px;
+        .grid {
+            display: grid;
+            grid-row-gap: 25px;
+        }
     }
 }
 
 .card {
     text-align: center;
+    overflow: hidden;
     background-color: $card-background;
     color: $text-color;
-    border-radius: 4px;
+    border-radius: 6px;
     padding-bottom: 2px;
     &:before {
         content: "";
