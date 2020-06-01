@@ -111,7 +111,10 @@ header {
 /* Small card */
 .overview {
     .wrapper {
+        padding: 0 40px;
         .card-small {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             .card-small-views {
 
             }

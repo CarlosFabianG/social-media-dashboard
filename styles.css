@@ -1,5 +1,5 @@
-/* variables*/
-/* Nested selectors*/
+/* Variables */
+/* Nested selectors */
 body {
   font-family: "Inter", sans-serif;
   font-size: 14px;
@@ -38,13 +38,14 @@ header .wrapper .header-total {
   grid-row-gap: 25px;
 }
 
+/* Card */
 .card, .youtube-card, .instagram-card, .twitter-card {
   text-align: center;
   overflow: hidden;
   background-color: #f0f2fa;
   color: #63687e;
   border-radius: 6px;
-  padding: 2em 0;
+  padding: 1em 0;
   position: relative;
 }
 .card:before, .youtube-card:before, .instagram-card:before, .twitter-card:before {
@@ -89,6 +90,15 @@ header .wrapper .header-total {
 
 .youtube-card:before {
   background: #c4032a;
+}
+
+/* Small card */
+.overview .wrapper {
+  padding: 0 40px;
+}
+.overview .wrapper .card-small {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /*# sourceMappingURL=styles.css.map */
