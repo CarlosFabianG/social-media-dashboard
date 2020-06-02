@@ -96,40 +96,44 @@ header .wrapper .header-total {
 .overview .wrapper {
   padding: 0 40px;
 }
-.overview .wrapper .card-small {
+.overview .wrapper .grid {
+  display: grid;
+  grid-gap: 10px;
+}
+.overview .wrapper .grid .card-small {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #f0f2fa;
   padding: 5px 25px;
   border-radius: 6px;
 }
-.overview .wrapper .card-small .card-small-views {
+.overview .wrapper .grid .card-small .card-small-views {
   font-weight: bold;
-  font-size: 0.9;
+  font-size: 0.9em;
   color: #63687e;
 }
-.overview .wrapper .card-small .card-small-icon {
+.overview .wrapper .grid .card-small .card-small-icon {
   text-align: end;
   border: 1px border red;
 }
-.overview .wrapper .card-small .card-small-number {
+.overview .wrapper .grid .card-small .card-small-number {
   font-weight: 600;
   font-size: 2.5em;
   line-height: 0.9;
   margin: 0;
 }
-.overview .wrapper .card-small .card-small-percentage {
+.overview .wrapper .grid .card-small .card-small-percentage {
   text-align: end;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   color: #dc414c;
 }
-.overview .wrapper .card-small .card-small-percentage span {
+.overview .wrapper .grid .card-small .card-small-percentage span {
   display: flex;
   align-items: center;
 }
-.overview .wrapper .card-small .card-small-percentage img {
+.overview .wrapper .grid .card-small .card-small-percentage img {
   margin-right: 3px;
 }
 
