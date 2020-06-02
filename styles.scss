@@ -112,9 +112,11 @@ header {
 /* Small card */
 .overview {
     margin-top: 30px;
-    margin-left: 40px;
     font-weight: bold;
     font-size: 1.2em;
+    p {
+        margin-left: 40px;
+    }
     .wrapper {
         padding: 0 40px;
         .grid {
@@ -140,6 +142,7 @@ header {
                     font-size: 2.5em;
                     line-height: .9;
                     margin: 0;
+                    color: $text-color;
                 }
                 .card-small-percentage {
                     text-align: end;
@@ -157,5 +160,12 @@ header {
                 }
             }
         }
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1440px){
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 12px;
     }
 }
