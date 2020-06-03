@@ -163,7 +163,7 @@ header {
     }
 }
 
-@media only screen and (min-width: 550px) and (max-width: 1440px){
+@media only screen and (min-width: 500px) and (max-width: 1440px){
     .grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-column-gap: 12px;
