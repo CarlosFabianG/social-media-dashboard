@@ -146,10 +146,25 @@ header .wrapper .header-total {
   margin-right: 3px;
 }
 
-@media only screen and (min-width: 550px) and (max-width: 1440px) {
+@media screen and (min-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 12px;
+  }
+
+  .wrapper {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 12px;
   }
 }
 
