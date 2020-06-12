@@ -29,7 +29,7 @@ header {
             margin: 0;
         }
         .header-total {
-            border-bottom: 2px solid #5f616d;
+            border-bottom: 1px solid #5f616d;
             padding-bottom: 1.5em;
         }
     } 
@@ -183,5 +183,16 @@ header {
 @media screen and (min-width: 1024px) {
     .grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    body {
+        background: #1d2029;
+        color: white;
+    }
+    $card-background: #252b43;
+    .card-small {
+        background: #1d2029;
     }
 }
